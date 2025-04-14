@@ -1,0 +1,41 @@
+a {
+    color: inherit;
+}
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url('/img/mj.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn-red {
+    background-color: rgb(177, 8, 8);
+    color: white;
+}
+
+.btn-red:hover {
+    background-color: rgb(117, 8, 8);
+    color: white;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #cecece;
+}
+
+.form-check-input:checked {
+    background-color: rgb(177, 8, 8);
+    border-color: rgb(177, 8, 8);
+}
