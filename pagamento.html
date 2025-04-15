@@ -61,7 +61,7 @@
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#"
+                            <a class="nav-link" href="#"
                                 ><i class="bi bi-question-circle"></i> F.A.Q.</a
                             >
                         </li>
@@ -286,7 +286,7 @@
                     <div class="btn btn-outline-dark disabled">
                         Totale: 109,90€
                     </div>
-                    <a href="pagamento.html" class="btn btn-success"
+                    <a href="#" class="btn btn-success"
                         ><i class="bi bi-bank"></i> Paga</a
                     >
                 </div>
@@ -337,164 +337,244 @@
         <!-- Contenuto principale -->
         <div class="container-fluid mt-4 flex-grow-1">
             <div class="row">
-                <div class="col-10 offset-1 my-5">
-                    <h2 class="mb-4 text-center">Domande Frequenti</h2>
-                    <div class="accordion" id="faqAccordion">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faq1-heading">
-                                <button
-                                    class="accordion-button collapsed"
-                                    type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#faq1"
-                                    aria-expanded="false"
-                                    aria-controls="faq1"
-                                >
-                                    Quali taglie sono disponibili per le maglie
-                                    da basket?
-                                </button>
-                            </h2>
-                            <div
-                                id="faq1"
-                                class="accordion-collapse collapse"
-                                aria-labelledby="faq1-heading"
-                                data-bs-parent="#faqAccordion"
-                            >
-                                <div class="accordion-body">
-                                    Offriamo taglie dalla XS alla XXL.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faq2-heading">
-                                <button
-                                    class="accordion-button collapsed"
-                                    type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#faq2"
-                                    aria-expanded="false"
-                                    aria-controls="faq2"
-                                >
-                                    Le maglie sono originali o repliche?
-                                </button>
-                            </h2>
-                            <div
-                                id="faq2"
-                                class="accordion-collapse collapse"
-                                aria-labelledby="faq2-heading"
-                                data-bs-parent="#faqAccordion"
-                            >
-                                <div class="accordion-body">
-                                    Le nostre maglie sono repliche ufficiali con
-                                    licenza. Mantengono l'estetica e la qualità
-                                    delle originali, ma a un prezzo accessibile.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="faq3-heading">
-                                <button
-                                    class="accordion-button collapsed"
-                                    type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#faq3"
-                                    aria-expanded="false"
-                                    aria-controls="faq3"
-                                >
-                                    Quanto tempo ci vuole per la spedizione?
-                                </button>
-                            </h2>
-                            <div
-                                id="faq3"
-                                class="accordion-collapse collapse"
-                                aria-labelledby="faq3-heading"
-                                data-bs-parent="#faqAccordion"
-                            >
-                                <div class="accordion-body">
-                                    La spedizione standard impiega 3-5 giorni
-                                    lavorativi.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="my-5">
-                        <h2 class="mb-4 text-center">Hai ancora domande?</h2>
+                <div class="col-md-5 offset-1 my-5">
+                    <div class="row">
                         <form action="#" method="get">
                             <div class="row">
+                                <h2 class="mb-4">Indirizzo di spedizione</h2>
                                 <div class="col-md-6 mb-3">
                                     <div class="form-floating">
                                         <input
                                             type="text"
                                             class="form-control"
                                             id="nome"
-                                            placeholder="Nome"
+                                            placeholder="nome"
                                             required
                                         /><label for="">Nome</label>
                                     </div>
                                 </div>
-
                                 <div class="col-md-6 mb-3">
                                     <div class="form-floating">
                                         <input
                                             type="text"
                                             class="form-control"
                                             id="cognome"
-                                            placeholder="Cognome"
+                                            placeholder="cognome"
                                             required
                                         /><label for="">Cognome</label>
                                     </div>
                                 </div>
-
-                                <div class="input-group col-12 mb-3">
-                                    <span class="input-group-text">@</span>
-
-                                    <div class="form-floating">
-                                        <input
-                                            type="email"
-                                            class="form-control"
-                                            id="email"
-                                            placeholder="tua@email.com"
-                                            required
-                                        /><label for="">Email</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 mb-3">
+                                <div class="col-md-8 mb-3">
                                     <div class="form-floating">
                                         <input
                                             type="text"
                                             class="form-control"
-                                            id="oggetto"
-                                            placeholder="Oggetto della tua domanda"
+                                            id="via"
+                                            placeholder="via"
                                             required
-                                        /><label for="">Oggetto</label>
+                                        /><label for="">Via</label>
                                     </div>
                                 </div>
-
-                                <div class="col-12 mb-3">
+                                <div class="col-md-4 mb-3">
                                     <div class="form-floating">
-                                        <textarea
+                                        <input
+                                            type="text"
                                             class="form-control"
-                                            id="messaggio"
-                                            rows="5"
-                                            placeholder="Scrivi qui il tuo messaggio..."
+                                            id="numero_civico"
+                                            placeholder="numero_civico"
                                             required
-                                        ></textarea
-                                        ><label for="">Messaggio</label>
+                                        /><label for="">Numero civico</label>
                                     </div>
                                 </div>
-
-                                <div class="col-12 text-end">
-                                    <button type="submit" class="btn btn-red">
-                                        Invia
-                                    </button>
+                                <div class="col-md-3 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="cap"
+                                            placeholder="cap"
+                                            required
+                                        /><label for="">CAP</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="comune"
+                                            placeholder="comune"
+                                            required
+                                        /><label for="">Comune</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="provincia"
+                                            placeholder="provincia"
+                                            required
+                                        /><label for="">Provincia</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="paese"
+                                            placeholder="paese"
+                                            required
+                                        /><label for="">Paese</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h2 class="mb-4">Estremi di pagamento</h2>
+                                <div class="col-md-12 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="numero"
+                                            placeholder="numero"
+                                            required
+                                        /><label for="">Numero</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="data"
+                                            placeholder="data"
+                                            required
+                                        /><label for="">Data di scadenza</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="cvv"
+                                            placeholder="cvv"
+                                            required
+                                        /><label for="">CVV</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="nome_carta"
+                                            placeholder="Nome"
+                                            required
+                                        /><label for=""
+                                            >Nome sulla carta di credito</label
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h2 class="mb-4">Indirizzo di fatturazione</h2>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="nome"
+                                            placeholder="nome"
+                                            required
+                                        /><label for="">Nome</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="cognome"
+                                            placeholder="cognome"
+                                            required
+                                        /><label for="">Cognome</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="via"
+                                            placeholder="via"
+                                            required
+                                        /><label for="">Via</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="numero_civico"
+                                            placeholder="numero_civico"
+                                            required
+                                        /><label for="">Numero civico</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="cap"
+                                            placeholder="cap"
+                                            required
+                                        /><label for="">CAP</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="comune"
+                                            placeholder="comune"
+                                            required
+                                        /><label for="">Comune</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="provincia"
+                                            placeholder="provincia"
+                                            required
+                                        /><label for="">Provincia</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="paese"
+                                            placeholder="paese"
+                                            required
+                                        /><label for="">Paese</label>
+                                    </div>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
+                <div class="col-md-4 offset-1 my-5"></div>
             </div>
         </div>
 
