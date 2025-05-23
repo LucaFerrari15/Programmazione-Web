@@ -16,6 +16,10 @@ a {
     font-weight: bold;
 }
 
+.c-red {
+    color: rgb(255, 67, 67);
+}
+
 .btn-red {
     background-color: rgb(177, 8, 8);
     color: white;
